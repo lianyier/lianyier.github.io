@@ -1,85 +1,43 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
-    <h2>Essential Links</h2>
-    <ul>
-      <li>
-        <a
-          href="https://vuejs.org"
-          target="_blank"
-        >
-          Core Docs
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://forum.vuejs.org"
-          target="_blank"
-        >
-          Forum
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://chat.vuejs.org"
-          target="_blank"
-        >
-          Community Chat
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://twitter.com/vuejs"
-          target="_blank"
-        >
-          Twitter
-        </a>
-      </li>
-      <br>
-      <li>
-        <a
-          href="http://vuejs-templates.github.io/webpack/"
-          target="_blank"
-        >
-          Docs for This Template
-        </a>
-      </li>
-    </ul>
-    <h2>Ecosystem</h2>
-    <ul>
-      <li>
-        <a
-          href="http://router.vuejs.org/"
-          target="_blank"
-        >
-          vue-router
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vuex.vuejs.org/"
-          target="_blank"
-        >
-          vuex
-        </a>
-      </li>
-      <li>
-        <a
-          href="http://vue-loader.vuejs.org/"
-          target="_blank"
-        >
-          vue-loader
-        </a>
-      </li>
-      <li>
-        <a
-          href="https://github.com/vuejs/awesome-vue"
-          target="_blank"
-        >
-          awesome-vue
-        </a>
-      </li>
-    </ul>
+    <!--<div style="text-align:center;clear:both;">
+			<script src="/gg_bd_ad_720x90.js" type="text/javascript"></script>
+			<script src="/follow.js" type="text/javascript"></script>
+		</div>-->
+
+		<div class="cube-container">
+			<div class="cube initial-position">
+				<img class="cube-face-image image-1" src="../../static/img/img1.jpg">
+				
+				<img class="cube-face-image image-2" src="../../static/img/img2.jpg">
+				
+				<img class="cube-face-image image-3" src="../../static/img/img3.jpg">
+				
+				<img class="cube-face-image image-4" src="../../static/img/img4.jpg">
+				
+				<img class="cube-face-image image-5" src="../../static/img/img5.jpg">
+				
+				<img class="cube-face-image image-6" src="../../static/img/img6.jpg">
+		
+			</div>
+		
+		</div>
+
+		<div class="image-buttons">
+		
+			<input type="image" class="show-image-1" src="../../static/img/img11.jpg"></input>
+		
+			<input type="image" class="show-image-2" src="../../static/img/img22.jpg"></input>
+		
+			<input type="image" class="show-image-3" src="../../static/img/img33.jpg"></input>
+		
+			<input type="image" class="show-image-4" src="../../static/img/img44.jpg"></input>
+		
+			<input type="image" class="show-image-5" src="../../static/img/img55.jpg"></input>
+		
+			<input type="image" class="show-image-6" src="../../static/img/img66.jpg"></input>
+		
+		</div>
   </div>
 </template>
 
@@ -94,20 +52,5 @@ export default {
 }
 </script>
 
-<!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-h1, h2 {
-  font-weight: normal;
-}
-ul {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  display: inline-block;
-  margin: 0 10px;
-}
-a {
-  color: #42b983;
-}
+<style lang="sass">
 </style>
